@@ -1,0 +1,12 @@
+leds\os_stat.o: ../uCOS/CORE/os_stat.c
+leds\os_stat.o: ../uCOS/CORE/os.h
+leds\os_stat.o: ../uCOS/APP/os_cfg.h
+leds\os_stat.o: ../uCOS/APP/os_cfg_app.h
+leds\os_stat.o: ../uCOS/CPU/cpu_core.h
+leds\os_stat.o: ../uCOS/CPU/cpu.h
+leds\os_stat.o: ../uCOS/CPU/cpu_def.h
+leds\os_stat.o: ../uCOS/CPU/cpu_cfg.h
+leds\os_stat.o: ../uCOS/LIB/lib_def.h
+leds\os_stat.o: ../uCOS/CORE/os_type.h
+leds\os_stat.o: ../uCOS/PORT/os_cpu.h
+leds\os_stat.o: ../uCOS/CORE/os_trace.h

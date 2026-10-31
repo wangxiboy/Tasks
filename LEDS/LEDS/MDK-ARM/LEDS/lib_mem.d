@@ -1,0 +1,11 @@
+leds\lib_mem.o: ../uCOS/LIB/lib_mem.c
+leds\lib_mem.o: ../uCOS/LIB/lib_mem.h
+leds\lib_mem.o: ../uCOS/CPU/cpu.h
+leds\lib_mem.o: ../uCOS/CPU/cpu_def.h
+leds\lib_mem.o: ../uCOS/CPU/cpu_cfg.h
+leds\lib_mem.o: ../uCOS/CPU/cpu_core.h
+leds\lib_mem.o: ../uCOS/LIB/lib_def.h
+leds\lib_mem.o: ../uCOS/LIB/lib_cfg.h
+leds\lib_mem.o: ../uCOS/LIB/lib_math.h
+leds\lib_mem.o: ../uCOS/LIB/lib_str.h
+leds\lib_mem.o: ../uCOS/LIB/lib_ascii.h

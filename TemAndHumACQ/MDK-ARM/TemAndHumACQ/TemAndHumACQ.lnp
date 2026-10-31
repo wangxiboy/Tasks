@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"temandhumacq\startup_stm32f103xb.o"
+"temandhumacq\main.o"
+"temandhumacq\delay.o"
+"temandhumacq\i2c_soft.o"
+"temandhumacq\aht20.o"
+"temandhumacq\stm32f1xx_it.o"
+"temandhumacq\stm32f1xx_hal_msp.o"
+"temandhumacq\stm32f1xx_hal_gpio_ex.o"
+"temandhumacq\stm32f1xx_hal_uart.o"
+"temandhumacq\stm32f1xx_hal.o"
+"temandhumacq\stm32f1xx_hal_rcc.o"
+"temandhumacq\stm32f1xx_hal_rcc_ex.o"
+"temandhumacq\stm32f1xx_hal_gpio.o"
+"temandhumacq\stm32f1xx_hal_dma.o"
+"temandhumacq\stm32f1xx_hal_cortex.o"
+"temandhumacq\stm32f1xx_hal_pwr.o"
+"temandhumacq\stm32f1xx_hal_flash.o"
+"temandhumacq\stm32f1xx_hal_flash_ex.o"
+"temandhumacq\stm32f1xx_hal_exti.o"
+"temandhumacq\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "TemAndHumACQ\TemAndHumACQ.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TemAndHumACQ.map" -o TemAndHumACQ\TemAndHumACQ.axf
